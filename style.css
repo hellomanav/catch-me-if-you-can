@@ -1,0 +1,75 @@
+
+  
+  body {
+    font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
+    color: #222;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    /* margin: 50px auto; */
+    text-align: center;
+    /* background: url('retro.jpg') no-repeat center center/cover; */
+    background-color:#f16059;
+    
+  }
+  header{
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  p{
+      color:white;
+  }
+.heading{
+    margin-bottom: 20px;
+}
+.page h4{
+    margin-bottom: 18px;
+}
+
+  .quote{
+      text-align: center;
+      margin:auto;
+    width:70%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: initial;
+  }
+
+  .gamescreen{
+    border:2px solid black;
+    background:#708090;
+}
+
+.game-status{
+    height:150px;
+}
+
+@keyframes pulse {
+    
+    0% {opacity: 1}
+    50% {opacity: 0}
+  }
+
+@keyframes swag{
+    50% {color:red;}
+}
+  .status {
+      margin-bottom: 20px;
+      font-size: 30px;
+    animation: pulse 0.8s ease 0s infinite;
+    animation-name: swag;
+    animation-duration: 2s;
+  }
+  
+
+  h4 {
+    font-size: 21px;
+    font-family: 'Bungee', cursive;
+  }
+
+  
+  footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
