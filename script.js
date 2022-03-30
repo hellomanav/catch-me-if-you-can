@@ -132,12 +132,12 @@ function random_fact(){
 
 
 }
-function playSound(name){
-    name = "hammer.wav";
-    let audio = new Audio(name)
-    audio.play();
-}
-playSound();
+//function playSound(name){
+//    name = "hammer.wav";
+//    let audio = new Audio(name)
+//    audio.play();
+//}
+//playSound();
 
 
 let rand_facts=[
